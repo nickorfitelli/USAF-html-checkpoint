@@ -1,0 +1,46 @@
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr [M] 1fr 1fr;
+    grid-template-areas: "Movie-Image Movie-Info Movie-Info" "Movie-Image Movie-Info Movie-Info" "Movie-Form Movie-Form Movie-Form";
+    height: 100%;
+  }
+  
+  .Movie-Image { 
+    grid-area: Movie-Image;
+    
+   }
+  
+  .Movie-Info {
+     grid-area: Movie-Info;
+     text-align: left; 
+  }
+  
+  .Movie-Form {
+    text-align: left;
+     grid-area: Movie-Form;
+     }
+
+  img{
+    width: 100%;
+  }
+
+  .Movie-Text{
+    text-align: left;
+    margin: 1%;
+  }
+
+  .comment-field{
+    text-align: left;
+    
+    
+  }
+
+  .login-field{
+    width: 25%;
+   
+  }
+
+  .login-btn{
+    padding: 1%;
+  }
