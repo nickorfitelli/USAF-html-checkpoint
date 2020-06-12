@@ -1,0 +1,36 @@
+.back-bar{
+    background-color: #7c7c7c;
+    padding: .5% 1%;
+    margin: 1% 0;
+    border-radius: 3px;
+    color :#f0ad4e;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    /* border: 3px solid;
+    border-color: black; */
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    /* border: 3px solid;
+    border-color: black; */
+    margin: 1%;
+  }
+
+  .input-movie{
+      width: 100%;
+      margin: 1%;
+  }
+
+  .input-movie:hover{
+      opacity: .5;
+      cursor: pointer;
+  }
